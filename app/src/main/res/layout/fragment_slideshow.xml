@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S'inscrire"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nomTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="104dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+        android:id="@+id/prenomTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="prenom"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="233dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/motPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="312dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnEnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="387dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnImpr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imprimer"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="453dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
